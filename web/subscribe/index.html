@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>InterApplicationBus.subscribe to data</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      textarea {
+        width: 100%;
+        min-height: 15rem;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 0.8rem;
+        line-height: 1.2;
+      }
+    </style>
+  </head>
+  <body style="padding:25px">
+
+    <h1>InterApplicationBus.subscribe: Subscribe To Data</h1>
+    <div id="apiv2">
+      Source: <input type="text" id="apiv2-subscribe-source" />
+      <br />
+      Topic: <input type="text" id="apiv2-subscribe-topic" />
+      <br />
+      Message Data:
+      <textarea name="" id="apiv2-subscribe-data" cols="30" rows="5"></textarea>
+      <br />
+      <button id="apiv2-subscribe">
+        Subscribe
+      </button>
+      <button id="apiv2-unsubscribe">
+        Unsubscribe
+      </button>
+      <br />
+      Last Received: <span id="apiv2-subscribe-lastreceived"></span>
+    </div>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>

@@ -1,0 +1,20 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+      "applicationIcon": "http://localhost:5004/favicon.ico",
+      "name": "Message Bus Listen Demo",
+      "description": "A guide to OpenFin Development. A tool to listen to messages",
+      "url": "http://localhost:5004/subscribe/index.html",
+      "uuid": "f9bf23c4-b7a5-4bed-9f91-f40989d23263",
+      "autoShow": true
+    },
+    "runtime": {
+      "version": "stable"
+    },
+    "shortcut": {
+      "company": "OpenFin",
+      "description": "A guide to OpenFin Development",
+      "name": "Message Bus Listen Demo"
+    }
+  }
+  
